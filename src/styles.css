@@ -35,3 +35,7 @@
 .course-review-empty,.history-empty{padding:18px 0;color:#84919e;font-size:13px}
 @media(max-width:970px){.course-details-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.course-hero{flex-direction:column;padding:22px}.course-hero h1{font-size:28px}.course-mini-score{min-width:unset;width:100%}.detail-review-head{flex-direction:column}}
+
+/* Error message under the field that is wrong */
+.modal [aria-invalid="true"]{border-color:#b42318;background:#fffafa}
+.field-error{color:#b42318;font-size:12px}
