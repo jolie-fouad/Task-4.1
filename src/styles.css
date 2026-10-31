@@ -39,3 +39,13 @@
 /* Error message under the field that is wrong */
 .modal [aria-invalid="true"]{border-color:#b42318;background:#fffafa}
 .field-error{color:#b42318;font-size:12px}
+
+/* Delete button next to Edit */
+.row-delete{color:#b42318;margin-left:12px}
+
+/* "Are you sure?" delete confirmation */
+.confirm-modal{width:min(440px,100%)}
+.confirm-modal h2{font:700 22px 'Source Serif 4',Georgia,serif;color:#243249;margin:0 0 12px}
+.confirm-modal p{font-size:14px;line-height:1.55;color:#4f5d6e;margin:0}
+.danger{border:0;border-radius:6px;padding:11px 16px;background:#b42318;color:#fff;font-weight:700}
+.danger:hover{background:#912018}
